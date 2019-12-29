@@ -1,0 +1,3 @@
+ITS RICH DATA BASE,IF IT CANNOT IMPORT THAN IMPORT ANOTHER DATABASE THAT SAVE IN FILE
+AND IN AUTHENTICATION TABLE EDIT User name ("super") nd password "super"
+than access all the features of website

@@ -1,0 +1,16 @@
+﻿.tr_model_1_even
+{background: rgb(55, 170, 212);color: white;text-align: center;	}
+.tr_model_1_odd
+{background: rgba(55, 183, 229, 0.16);text-align: center;}
+.td_model_1
+{padding:5px;}
+
+.container
+{
+width: 407px;background: rgba(255, 255, 255, 0.35);height: 100%;padding:10px;margin-top:20px;
+}
+
+body
+{
+background:url(include/bg1.jpg);
+}

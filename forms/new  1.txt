@@ -1,0 +1,10 @@
+<?php
+require_once('include/config.php');
+$link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
+$db = mysql_select_db(DB_DATABASE);
+
+$room_type = $_REQUEST['room_type'];
+$q = mysql_query('SELECT DISTINCT room_no FROM vip_room WHERE  room_no NOT IN (SELECT DISTINCT room_no FROM room_allotment where room_type="$room_type")');	
+while($res = mysql_fetch_array($q))
+	echo "<option>$room_type</option>";
+?>

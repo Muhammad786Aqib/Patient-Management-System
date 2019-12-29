@@ -1,0 +1,22 @@
+tables issue
+remove authentation
+and only authentication for super user
+only paswrd change if we want to change not id 
+paswrd is case senstive
+
+2- data enter prob(in form)
+3-cannot show info of patient 
+
+no chcks during data entry
+
+Search through CNIC
+
+Doctor before entering dr.name
+
+
+left tab for all options
+
+in admin(role of authentication,nd change auth.pss)
+
+in change paswrd change just pass /not username  
+sigin update page
